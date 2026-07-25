@@ -1,0 +1,9 @@
+version: 2
+models:
+- name: monthly_active_users
+  description: 'Auto-generated from: "monthly active users by plan tier". Grounded
+    in DataHub-governed sources: . Excluded 0 deprecated/ungoverned table(s) during
+    generation.'
+  columns:
+  - name: plan_tier
+    description: 'Dimension: plan_tier'
