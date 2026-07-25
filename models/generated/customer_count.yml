@@ -1,0 +1,10 @@
+version: 2
+models:
+- name: customer_count
+  description: 'Auto-generated from: "customer count by region". Grounded in DataHub-governed
+    sources: urn:li:document:ecomm-customers, order_details, order_details, Order
+    Details, urn:li:document:ecomm-addresses. Excluded 0 deprecated/ungoverned table(s)
+    during generation.'
+  columns:
+  - name: region
+    description: 'Dimension: region'
