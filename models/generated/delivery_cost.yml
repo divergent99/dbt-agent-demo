@@ -1,0 +1,10 @@
+version: 2
+models:
+- name: delivery_cost
+  description: 'Auto-generated from: "delivery cost by delivery type". Grounded in
+    DataHub-governed sources: order_details, orders, orders, orders, ORDERS, ORDER_DETAILS_REPLICA,
+    order_details, Order Details, urn:li:document:ecomm-orders. Excluded 0 deprecated/ungoverned
+    table(s) during generation.'
+  columns:
+  - name: delivery type
+    description: 'Dimension: delivery type'
