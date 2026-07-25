@@ -1,0 +1,11 @@
+version: 2
+models:
+- name: returns
+  description: 'Auto-generated from: "returns by reason and product category". Grounded
+    in DataHub-governed sources: Returns & Refunds. Excluded 0 deprecated/ungoverned
+    table(s) during generation.'
+  columns:
+  - name: return reason
+    description: 'Dimension: return reason'
+  - name: product category
+    description: 'Dimension: product category'
