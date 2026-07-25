@@ -1,0 +1,12 @@
+version: 2
+models:
+- name: order_total
+  description: 'Auto-generated from: "order total by product category and order mode".
+    Grounded in DataHub-governed sources: order_details, ORDER_DETAILS_REPLICA, order_details,
+    Order Details, Returns & Refunds, Promotions Performance. Excluded 0 deprecated/ungoverned
+    table(s) during generation.'
+  columns:
+  - name: product category
+    description: 'Dimension: product category'
+  - name: order mode
+    description: 'Dimension: order mode'
